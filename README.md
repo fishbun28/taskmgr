@@ -152,3 +152,10 @@ uv tool uninstall taskmgr
 rm ~/.config/systemd/user/taskmgr-*.{service,timer}
 rm -rf ~/.config/taskmgr
 ```
+
+
+---
+
+## License
+
+MIT License. See [LICENSE](./LICENSE) for details.
