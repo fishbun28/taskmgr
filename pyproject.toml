@@ -1,0 +1,12 @@
+[project]
+name = "taskmgr"
+version = "0.1.0"
+description = "Personal cron task manager via systemd timers"
+requires-python = ">=3.9"
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0",
+]
+
+[project.scripts]
+taskmgr = "taskmgr.cli:main"
